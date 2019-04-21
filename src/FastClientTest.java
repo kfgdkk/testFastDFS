@@ -2,6 +2,7 @@ import org.csource.fastdfs.*;
 
 public class FastClientTest {
     public static void main(String[] args) throws Exception{
+        //注释啊啊啊啊啊
         ClientGlobal.init("E:/client.conf");
         TrackerClient trackerClient = new TrackerClient();
         TrackerServer trackerServer = trackerClient.getConnection();
